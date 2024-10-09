@@ -1,0 +1,34 @@
+public class Selection2Exp3244107060159 {
+    public static void main(String[] args) {
+        Scanner category;
+        int income, netSalary;
+        double tax = 0;
+        String anotherString;
+
+        System.out.print(x:"Input category  = ");
+        category = input244107060159.nextLine();
+        System.out.print(x:"Input income = ");
+        income = input244107060159.nextInt();
+
+        if (category.equalsIgnoreCase(anotherString:"worker")) {
+            if (income <=2000000)
+            tax = 0.1 * income;
+        else if (income <= 3000000)
+            tax = 0.15 * income;
+        else
+            tax = 0.2 * income;
+        netSalary = (int) (income - (tax*income));
+        System.out.println(x:"Net salary = "+netSalary);
+}else if  (category.equalsIgnoreCase(anotherString:"businessman")) {
+    if  (income <= 2500000)
+        tax = 0.15;
+    else if(income <= 3500000)
+        tax = 0.2;
+    else
+        tax = 0.25;
+    netSalary = (int) (income - (tax*income));
+    System.out.println(x:"Net salary = "+netSalary);
+}else
+        System.out.println(x:"Invalid category!");
+    }
+}
